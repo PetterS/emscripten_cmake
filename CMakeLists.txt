@@ -5,4 +5,4 @@ add_definitions("-std=c++11")
 # The following does not seem to work.
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} --std=c++11")
 
-add_executable(my_program my_program.cpp)
+add_executable(my_program.html my_program.cpp)
