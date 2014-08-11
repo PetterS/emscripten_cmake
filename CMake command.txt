@@ -1,0 +1,6 @@
+I was using the following CMake command to build with Emscripten on Windows.
+
+set EMSCRIPTEN=c:/Program/Emscripten/emscripten/1.21.0
+set SOURCE=c:/Users/Petter/Dropbox/Programming/emscripten-test
+cmake -DCMAKE_TOOLCHAIN_FILE=%EMSCRIPTEN%/cmake/Platform/Emscripten.cmake -DCMAKE_BUILD_TYPE=Release -G "Ninja" %SOURCE%
+
